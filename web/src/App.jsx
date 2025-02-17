@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import useWebSocket, { ReadyState } from "react-use-websocket";
 
 const socketUrl =
-  "wss://hospitable-absorbing-dirigible.glitch.me/handleMessages";
+  "ws://localhost:3000/handleMessages";
 
 function App() {
   const [message, setMessage] = useState("");
